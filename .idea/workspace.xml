@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c813aba2-f31d-4758-aa26-c4d94ef186ea" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/movielist/MovieHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movielist/MovieHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movielist/UserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movielist/UserHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/movielist/UserHandlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/movielist/UserHandlerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.MovieHandlerTest.testAddMovie">
+  <component name="RunManager" selected="JUnit.UserHandlerTest.testRegisterUser">
     <configuration name="MovieHandlerTest.testAddMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MovieList" />
       <extension name="coverage">
@@ -55,22 +56,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieTest.testGetTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MovieList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.movielist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.movielist" />
-      <option name="MAIN_CLASS_NAME" value="org.movielist.MovieTest" />
-      <option name="METHOD_NAME" value="testGetTitle" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MovieTest.testMovieDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MovieList" />
       <extension name="coverage">
@@ -82,6 +67,22 @@
       <option name="PACKAGE_NAME" value="org.movielist" />
       <option name="MAIN_CLASS_NAME" value="org.movielist.MovieTest" />
       <option name="METHOD_NAME" value="testMovieDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserHandlerTest.testRegisterUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MovieList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.movielist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.movielist" />
+      <option name="MAIN_CLASS_NAME" value="org.movielist.UserHandlerTest" />
+      <option name="METHOD_NAME" value="testRegisterUser" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -121,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserHandlerTest.testRegisterUser" />
         <item itemvalue="JUnit.MovieHandlerTest.testAddMovie" />
         <item itemvalue="JUnit.UserTest.testAddAndGetFavoriteMovies" />
         <item itemvalue="JUnit.UserTest.testGetEmail" />
         <item itemvalue="JUnit.MovieTest.testMovieDetails" />
-        <item itemvalue="JUnit.MovieTest.testGetTitle" />
       </list>
     </recent_temporary>
   </component>

@@ -12,7 +12,18 @@ import static org.junit.jupiter.api.Assertions.*;
  * @author User
  */
 public class UserHandlerTest {
-    
+    @Test
+    public void testRegisterUser() {
+        // Arrange
+        UserHandler userHandler = new UserHandler(); // Create a UserHandler object
+        User user = new User("test@example.com"); // Create a user object to register
+
+        // Act
+        userHandler.registerUser(user); // Attempt to register the user
+
+        // Assert
+        assertTrue(userHandler.getUsers().contains(user)); // Check if the registered user is in the list of users
+    }
     
     
 }
