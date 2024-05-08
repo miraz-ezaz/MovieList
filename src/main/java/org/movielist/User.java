@@ -12,4 +12,23 @@ public class User {
         this.email = email;
         this.favoriteMovies = new ArrayList<>();
     }
+
+    // Getters
+    public String getEmail() {
+        return email;
+    }
+
+    public List<Movie> getFavoriteMovies() {
+        return favoriteMovies;
+    }
+
+    // Add a movie to favorites
+    public void addFavoriteMovie(Movie movie) {
+        favoriteMovies.add(movie);
+    }
+
+    // Remove a movie from favorites
+    public void removeFavoriteMovie(Movie movie) {
+        favoriteMovies.remove(movie);
+    }
 }
