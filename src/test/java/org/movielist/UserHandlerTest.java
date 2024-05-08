@@ -24,7 +24,23 @@ public class UserHandlerTest {
         // Assert
         assertTrue(userHandler.getUsers().contains(user)); // Check if the registered user is in the list of users
     }
+    @Test
+    public void testGetUserByEmail() {
+        // Arrange
+        UserHandler userHandler = new UserHandler(); // Create a UserHandler object
+        User user1 = new User("test1@example.com"); // Create users
+        User user2 = new User("test2@example.com");
+        User user3 = new User("test3@example.com");
+        userHandler.registerUser(user1); // Register users
+        userHandler.registerUser(user2);
+        userHandler.registerUser(user3);
 
-    
+        // Act
+        User foundUser = userHandler.getUserByEmail("test2@example.com"); // Attempt to get a user by email
+
+        // Assert
+        assertNotNull(foundUser); // Check if a user with the specified email is found
+        assertEquals("test2@example.com", foundUser.getEmail()); // Check if the retrieved user has the correct email
+    }
     
 }
