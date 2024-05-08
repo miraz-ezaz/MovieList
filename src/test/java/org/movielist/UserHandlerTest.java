@@ -24,6 +24,7 @@ public class UserHandlerTest {
         // Assert
         assertTrue(userHandler.getUsers().contains(user)); // Check if the registered user is in the list of users
     }
+
     
     
 }

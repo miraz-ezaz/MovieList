@@ -10,4 +10,14 @@ public class UserHandler {
     public UserHandler() {
         this.users = new ArrayList<>();
     }
+
+    // Register a new user
+    public void registerUser(User user) {
+        users.add(user);
+    }
+
+    // Get the list of users
+    public List<User> getUsers() {
+        return users;
+    }
 }
