@@ -18,5 +18,25 @@ public class Movie {
         this.releaseDate = releaseDate;
         this.budget = budget;
     }
+    // Getters
+    public String getTitle() {
+        return title;
+    }
+
+    public List<String> getCast() {
+        return cast;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public LocalDate getReleaseDate() {
+        return releaseDate;
+    }
+
+    public double getBudget() {
+        return budget;
+    }
 }
 
