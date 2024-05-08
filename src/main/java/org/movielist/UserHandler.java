@@ -20,4 +20,14 @@ public class UserHandler {
     public List<User> getUsers() {
         return users;
     }
+
+    // Get a user by email
+    public User getUserByEmail(String email) {
+        for (User user : users) {
+            if (user.getEmail().equals(email)) {
+                return user;
+            }
+        }
+        return null; // Return null if user with the specified email is not found
+    }
 }
