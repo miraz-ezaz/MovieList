@@ -5,6 +5,11 @@
 package org.movielist;
 
 import org.junit.jupiter.api.Test;
+
+import java.time.LocalDate;
+import java.util.Arrays;
+import java.util.List;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
@@ -23,5 +28,20 @@ public class MovieTest {
 
         // Assert
         assertEquals("Toy Story 4", title); // Check if the retrieved title matches the expected title
+    }
+
+    @Test
+    public void testMovieDetails() {
+        List<String> cast = Arrays.asList("Actor1", "Actor2", "Actor3");
+        LocalDate releaseDate = LocalDate.of(2020, 5, 15);
+        double budget = 1000000.0;
+
+        Movie movie = new Movie("Movie Title", cast, "Action", releaseDate, budget);
+
+        assertEquals("Movie Title", movie.getTitle());
+        assertEquals(cast, movie.getCast());
+        assertEquals("Action", movie.getCategory());
+        assertEquals(releaseDate, movie.getReleaseDate());
+        assertEquals(1000000.0, movie.getBudget(), 0.01);
     }
 }

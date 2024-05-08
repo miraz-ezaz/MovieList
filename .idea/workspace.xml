@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c813aba2-f31d-4758-aa26-c4d94ef186ea" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/movielist/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movielist/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/movielist/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/movielist/MovieTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/movielist/MovieTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.MovieTest.testMovieDetails">
     <configuration name="MovieTest.testGetTitle" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MovieList" />
       <extension name="coverage">
@@ -54,8 +56,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MovieTest.testMovieDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MovieList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.movielist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.movielist" />
+      <option name="MAIN_CLASS_NAME" value="org.movielist.MovieTest" />
+      <option name="METHOD_NAME" value="testMovieDetails" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieTest.testMovieDetails" />
         <item itemvalue="JUnit.MovieTest.testGetTitle" />
       </list>
     </recent_temporary>
