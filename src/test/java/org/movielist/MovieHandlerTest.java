@@ -15,14 +15,14 @@ public class MovieHandlerTest {
     @Test
     public void testAddMovie() {
         // Arrange
-        MovieHandler movieHandlerr = new MovieHandler(); // Create a MovieManager object
+        MovieHandler movieHandler = new MovieHandler(); // Create a MovieManager object
         Movie movie = new Movie("Toy Story 4", null, null, null, 0.0); // Create a movie object
 
         // Act
-        movieHandlerr.addMovie(movie); // Attempt to add the movie
+        movieHandler.addMovie(movie); // Attempt to add the movie
 
         // Assert
-        assertTrue(movieHandlerr.searchMovies("Toy Story 4").contains(movie)); // Check if the added movie is in the list of movies
+        assertTrue(movieHandler.searchMovies("Toy Story 4").contains(movie)); // Check if the added movie is in the list of movies
     }
     
     
