@@ -13,6 +13,7 @@ public class UserHandler {
 
     // Register a new user
     public void registerUser(User user) {
+
         users.add(user);
     }
 

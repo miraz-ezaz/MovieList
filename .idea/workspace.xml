@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c813aba2-f31d-4758-aa26-c4d94ef186ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/movielist/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movielist/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/movielist/UserHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/movielist/UserHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +39,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.UserHandlerTest.testGetUserByEmail">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.movielist.Main" />
+      <module name="MovieList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.movielist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovieHandlerTest.testAddMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MovieList" />
       <extension name="coverage">
@@ -102,29 +117,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest.testGetEmail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MovieList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.movielist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.movielist" />
-      <option name="MAIN_CLASS_NAME" value="org.movielist.UserTest" />
-      <option name="METHOD_NAME" value="testGetEmail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.UserHandlerTest.testGetUserByEmail" />
         <item itemvalue="JUnit.UserHandlerTest.testRegisterUser" />
         <item itemvalue="JUnit.MovieHandlerTest.testAddMovie" />
         <item itemvalue="JUnit.UserTest.testAddAndGetFavoriteMovies" />
-        <item itemvalue="JUnit.UserTest.testGetEmail" />
       </list>
     </recent_temporary>
   </component>
